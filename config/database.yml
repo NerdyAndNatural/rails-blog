@@ -4,14 +4,14 @@ development:
   database: db/blog_development
   pool: 5
   username: root
-  password: LilyLindo8678!
+  password: secretpassword
 test:
   adapter: mysql2
   encoding: utf8
   database: db/blog_test
   pool: 5
   username: root
-  password: LilyLindo8678!
+  password: secretpassword
 production:
   adapter: mysql2
   encoding: utf8
@@ -19,4 +19,4 @@ production:
   url: <%= ENV['DATABASE_URL'] %>
   pool: 5
   username: root
-  password: LilyLindo8678!
+  password: secretpassword
